@@ -23,7 +23,6 @@ const Chat = () => {
   const [typingUsers, setTypingUsers] = useState([])
   const ENDPOINT = "http://localhost:8000"
 
-  // Ref to track if messages are visible
   const messagesEndRef = useRef(null)
 
   const location = useLocation()
